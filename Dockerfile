@@ -1,16 +1,17 @@
-FROM python:3.13-slim
+FROM python:3.13-slim  
+
 WORKDIR /app
 
-# Install pipenv
-RUN pip install pipenv
+# Install pipenv first
+RUN pip install --no-cache-dir pipenv
 
-# Copy Pipfiles
+# Copy only Pipfiles first (for layer caching)
 COPY Pipfile Pipfile.lock ./
 
 # Install dependencies
 RUN pipenv install --system --deploy
 
-# Copy app files
+# Copy application
 COPY src/ ./src/
 COPY models/ ./models/
 
