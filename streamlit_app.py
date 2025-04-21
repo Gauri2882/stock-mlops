@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # -------------------- Page Config & Styling --------------------
-st.set_page_config(layout="wide", page_title="High-Precision Stock Predictor")
+st.set_page_config(layout="wide", page_title="Stock Predictor")
 
 st.markdown("""
 <style>
@@ -20,33 +20,12 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# -------------------- Sidebar Info --------------------
-with st.sidebar:
-    st.header("📘 About This App")
-    st.markdown("""
-    This is a stock price prediction tool built for learning and internship purposes.
-
-    **Technologies Used**:
-    - Scikit-learn (Model & Scaler)
-    - Streamlit (UI)
-
-    **Features Used**:  
-    - Open  
-    - High  
-    - Low  
-    - Adj Close  
-    - Volume
-
-    🔗 [GitHub](https://github.com/yourusername)  
-    🔗 [LinkedIn](https://linkedin.com/in/yourprofile)
-    """)
-
 # -------------------- Load Model & Scaler --------------------
 model = joblib.load('models/model.pkl')
 scaler = joblib.load('models/scaler.pkl')
 
 # -------------------- UI Title --------------------
-st.title('📈 High-Precision Stock Predictor')
+st.title('📈 Stock Predictor')
 
 # -------------------- Input Section --------------------
 feature_names = ['Open', 'High', 'Low', 'Adj Close', 'Volume']
