@@ -1,4 +1,4 @@
-# 📈 Stock Price Prediction MLOps Pipeline
+# 📈 Stock Price using Prediction MLOps Pipeline
 
 An end-to-end machine learning project that predicts stock prices using Python, FastAPI, Docker, Kubernetes, and Streamlit.
 
