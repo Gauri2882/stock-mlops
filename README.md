@@ -38,7 +38,7 @@ This project contributes to **United Nations Sustainable Development Goal 8** by
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/stock-mlops.git
+git clone https://github.com/Gauri2882/stock-mlops.git
 cd stock-mlops
 ```
 ### 2. Install dependencies
