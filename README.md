@@ -4,6 +4,17 @@ An end-to-end machine learning project that predicts stock prices using Python, 
 
 ---
 
+## 🎯 SDG Alignment: Decent Work and Economic Growth (SDG 8)
+
+This project contributes to **United Nations Sustainable Development Goal 8 – Decent Work and Economic Growth** by:
+
+- 📊 Helping individuals and businesses make **data-driven stock market decisions**
+- 💸 Enabling better **financial planning and forecasting** through predictive analytics
+- 🔍 Reducing unnecessary expenses by minimizing poor investment choices
+- 📈 Promoting **economic productivity** and informed participation in financial markets
+
+> By empowering users with accessible, AI-powered tools, this project supports inclusive and sustainable economic growth.
+---
 ## 🚀 Features
 
 - **Machine Learning**: Linear Regression model trained on historical stock data
