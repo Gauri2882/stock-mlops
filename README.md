@@ -3,10 +3,11 @@
 An end-to-end machine learning project that predicts stock prices using Python, FastAPI, Docker, Kubernetes, and Streamlit.
 
 ---
-
 ## 🎯 SDG Alignment: Decent Work and Economic Growth (SDG 8)
 
-This project contributes to **United Nations Sustainable Development Goal 8 – Decent Work and Economic Growth** by:
+[![SDG 8](https://img.shields.io/badge/SDG%208-Decent%20Work%20and%20Economic%20Growth-E5243B?style=for-the-badge&logo=unitednations)](https://sdgs.un.org/goals/goal8)
+
+This project contributes to **United Nations Sustainable Development Goal 8** by:
 
 - 📊 Helping individuals and businesses make **data-driven stock market decisions**
 - 💸 Enabling better **financial planning and forecasting** through predictive analytics
